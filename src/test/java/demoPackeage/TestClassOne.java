@@ -1,5 +1,7 @@
 package demoPackeage;
 
+import static org.testng.Assert.assertEquals;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -51,7 +53,8 @@ public class TestClassOne extends BaseClass{
 	}
 	@Test
 	public void test10() {
-		System.out.println("Test 10 run successfully");
+		System.out.println("Test 10 run successfully but got failed");
+		assertEquals(true, false);
 	}
 
 }
