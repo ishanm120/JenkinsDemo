@@ -51,10 +51,5 @@ public class TestClassOne extends BaseClass{
 	public void test9() {
 		System.out.println("Test 9 run successfully");
 	}
-	@Test
-	public void test10() {
-		System.out.println("Test 10 run successfully but got failed");
-		assertEquals(true, false);
-	}
 
 }
