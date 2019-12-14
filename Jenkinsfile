@@ -1,6 +1,6 @@
 node {
 stage('SCM Checkout'){
-get 'https://github.com/ishanm120/JenkinsDemo'
+git 'https://github.com/ishanm120/JenkinsDemo'
 }
 
 stage('Compile Package'){
