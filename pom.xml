@@ -50,7 +50,7 @@
 					<useFile>true</useFile>
 					<testFailureIgnore>false</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>/Users/admin/Documents/JenkinsDemo/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<include>src/main/java</include>
 					<include>src/test/java</include>
